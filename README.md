@@ -23,13 +23,4 @@ Bu proje, takometre olarak kullanılan CNY70 kontrast ölçer elemanını içeri
 - Yazılım, CCS C programlama dili kullanılarak geliştirilmiştir.
 - Devir algılama işlemi, capture özelliği kullanılarak gerçekleştirilmiştir.
 
-## Kurulum
-
-1. Gerekli malzemeleri temin edin.
-2. Devre şemasını kontrol edin ve gerekli bağlantıları yapın.
-3. Yazılımı CCS C ortamında derleyin ve mikrodenetleyiciye yükleyin.
-
-## Lisans
-
-Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır.
 
