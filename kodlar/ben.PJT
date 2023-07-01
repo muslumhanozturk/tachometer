@@ -1,0 +1,39 @@
+[PROJECT]
+Target=ben.HEX
+Development_Mode=2
+Processor=0x877F
+Processor_Text=PIC16F877
+ToolSuite=CCS
+
+[Directories]
+Include=
+Library=
+LinkerScript=
+
+[Target Data]
+FileList=G:\takometre\ben.c
+BuildTool=C-COMPILER
+OptionString=+FM
+AdditionalOptionString=
+BuildRequired=1
+
+[ben.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+
+[mru-list]
+1=ben.c
+
+[Windows]
+0=0000 ben.c 0 0 796 451 3 0
+
+[Opened Files]
+1=G:\takometre\ben.c
+2=
+[Units]
+Count=1
+1=ben.c (main)
