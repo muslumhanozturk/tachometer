@@ -1,24 +1,35 @@
-Takometre Hakkında Açıklamalar
-Aşağıda, takometre ile ilgili bazı önemli bilgiler yer almaktadır:
+# Takometre
 
-CNY70: Kontrast Ölçer Elemanı
+Bu proje, takometre olarak kullanılan CNY70 kontrast ölçer elemanını içerir. Bu dosyada, takometre hakkında önemli bilgileri bulabilirsiniz.
 
-CNY70, bir kontrast ölçer elemanıdır ve piyasada kolaylıkla bulunabilir.
-Hassasiyet Ayarı
+## Özellikler
 
-CNY70'in hassasiyetini artırmak için 100K olan direnç değerini arttırmak, azaltmak için ise değerini azaltmak gerekiyor.
-Sensörün Konumu
+- CNY70, kolaylıkla bulunabilen bir kontrast ölçer elemanıdır.
+- Sensörün motor döner aksamına yaklaşık 1cm mesafede olması gerekmektedir.
+- Motor döner aksamının tamamının siyah renk olması ve üzerinde beyaz bir şerit bulunması gerekmektedir.
 
-Sensörün ölçüm sırasında motor döner aksamına yaklaşık 1cm mesafede olması gerekmektedir.
-Motor Döner Aksamı
+## Hassasiyet Ayarı
 
-Motor döner aksamının tamamının siyah renk olması ve üzerinde beyaz bir şerit bulunması gerekmektedir.
-LCD Bağlantısı
+- `CNY70`'in hassasiyetini artırmak için 100K direnç değerini arttırabilirsiniz.
+- Hassasiyeti azaltmak için ise direnç değerini azaltmanız gerekmektedir.
 
-LCD'nin 3 nolu ekran besleme pinini doğrudan şaseye bağlamış durumdayız. Ancak, bazı LCD'lerde ekran tamamen doyuma gidebiliyor. Bu durumda, şase ile 3 nolu pin arasına 10K direnç bağlamak yeterli olacaktır.
-Yer Tasarrufu
+## LCD Bağlantısı
 
-LCD modülü, PIC'in hemen üzerinde havada duracak şekilde tasarlanmış ve hazırlanmıştır, böylece yer tasarrufu sağlanmıştır.
-Yazılım ve Devir Algılama
+- LCD modülü, PIC mikrodenetleyicinin hemen üzerinde yer almaktadır.
+- Ekran besleme pininin doğrudan şaseye bağlanması bazı durumlarda ekranın doyuma gitmesine neden olabilir. Bu durumu engellemek için şase ile besleme pin arasına 10K direnç bağlayabilirsiniz.
 
-Yazılım CCS C ile yazılmış olup, devir algılama işlemi capture özelliği kullanılarak sağlanmıştır.
+## Yazılım
+
+- Yazılım, CCS C programlama dili kullanılarak geliştirilmiştir.
+- Devir algılama işlemi, capture özelliği kullanılarak gerçekleştirilmiştir.
+
+## Kurulum
+
+1. Gerekli malzemeleri temin edin.
+2. Devre şemasını kontrol edin ve gerekli bağlantıları yapın.
+3. Yazılımı CCS C ortamında derleyin ve mikrodenetleyiciye yükleyin.
+
+## Lisans
+
+Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır.
+
